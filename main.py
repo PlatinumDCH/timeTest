@@ -1,5 +1,9 @@
-def gretting_function(text:str)->None:
+def gretting_function(text:str)->str:
     if text is None:
-        print('hello this is emty param text')
+        return ('hello this is emty param text')
     else:
-        print(text)
+        return (text.upper())
+
+def prining_functions(text:str)->None:
+    print(text)
+    
